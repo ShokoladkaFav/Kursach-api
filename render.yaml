@@ -3,4 +3,7 @@ services:
     name: kursach-api
     env: php
     plan: free
-    autoDeploy: true
+    region: oregon
+    buildCommand: ""
+    startCommand: ""
+    rootDir: .
